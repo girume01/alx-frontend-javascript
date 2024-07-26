@@ -1,0 +1,275 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json 0x01-ES6_promise@1.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/root/alx-frontend-javascript/0x01-ES6_promise',
+6 verbose install   [ '@babel/core',
+6 verbose install     '@babel/preset-env',
+6 verbose install     'babel-jest',
+6 verbose install     'eslint',
+6 verbose install     'jest' ] ]
+7 info preinstall 0x01-ES6_promise@1.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'babel-jest@^27.2.2', null ]
+10 verbose cache add name=undefined spec="babel-jest@^27.2.2" args=["babel-jest@^27.2.2",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'babel-jest@^27.2.2',
+11 verbose parsed url   path: 'babel-jest@^27.2.2',
+11 verbose parsed url   href: 'babel-jest@^27.2.2' }
+12 verbose cache add name="babel-jest" spec="^27.2.2" args=["babel-jest","^27.2.2"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '^27.2.2',
+13 verbose parsed url   path: '^27.2.2',
+13 verbose parsed url   href: '^27.2.2' }
+14 verbose addNamed [ 'babel-jest', '^27.2.2' ]
+15 verbose addNamed [ null, '>=27.2.2-0 <28.0.0-0' ]
+16 verbose cache add [ 'jest@^27.2.2', null ]
+17 verbose cache add name=undefined spec="jest@^27.2.2" args=["jest@^27.2.2",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'jest@^27.2.2',
+18 verbose parsed url   path: 'jest@^27.2.2',
+18 verbose parsed url   href: 'jest@^27.2.2' }
+19 verbose cache add name="jest" spec="^27.2.2" args=["jest","^27.2.2"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '^27.2.2',
+20 verbose parsed url   path: '^27.2.2',
+20 verbose parsed url   href: '^27.2.2' }
+21 verbose addNamed [ 'jest', '^27.2.2' ]
+22 verbose addNamed [ null, '>=27.2.2-0 <28.0.0-0' ]
+23 verbose cache add [ 'eslint@^7.32.0', null ]
+24 verbose cache add name=undefined spec="eslint@^7.32.0" args=["eslint@^7.32.0",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'eslint@^7.32.0',
+25 verbose parsed url   path: 'eslint@^7.32.0',
+25 verbose parsed url   href: 'eslint@^7.32.0' }
+26 verbose cache add name="eslint" spec="^7.32.0" args=["eslint","^7.32.0"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '^7.32.0',
+27 verbose parsed url   path: '^7.32.0',
+27 verbose parsed url   href: '^7.32.0' }
+28 verbose addNamed [ 'eslint', '^7.32.0' ]
+29 verbose addNamed [ null, '>=7.32.0-0 <8.0.0-0' ]
+30 verbose cache add [ '@babel/core@^7.15.5', null ]
+31 verbose cache add name=undefined spec="@babel/core@^7.15.5" args=["@babel/core@^7.15.5",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '@babel/core@^7.15.5',
+32 verbose parsed url   path: '@babel/core@^7.15.5',
+32 verbose parsed url   href: '@babel/core@^7.15.5' }
+33 verbose cache add name="" spec="babel/core@^7.15.5" args=["","babel/core@^7.15.5"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'babel/core@^7.15.5',
+34 verbose parsed url   path: 'babel/core@^7.15.5',
+34 verbose parsed url   href: 'babel/core@^7.15.5' }
+35 verbose cache add name="babel/core" spec="^7.15.5" args=["babel/core","^7.15.5"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '^7.15.5',
+36 verbose parsed url   path: '^7.15.5',
+36 verbose parsed url   href: '^7.15.5' }
+37 verbose addNamed [ 'babel/core', '^7.15.5' ]
+38 verbose addNamed [ null, '>=7.15.5-0 <8.0.0-0' ]
+39 verbose cache add [ '@babel/preset-env@^7.15.6', null ]
+40 verbose cache add name=undefined spec="@babel/preset-env@^7.15.6" args=["@babel/preset-env@^7.15.6",null]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: '@babel/preset-env@^7.15.6',
+41 verbose parsed url   path: '@babel/preset-env@^7.15.6',
+41 verbose parsed url   href: '@babel/preset-env@^7.15.6' }
+42 verbose cache add name="" spec="babel/preset-env@^7.15.6" args=["","babel/preset-env@^7.15.6"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: 'babel/preset-env@^7.15.6',
+43 verbose parsed url   path: 'babel/preset-env@^7.15.6',
+43 verbose parsed url   href: 'babel/preset-env@^7.15.6' }
+44 verbose cache add name="babel/preset-env" spec="^7.15.6" args=["babel/preset-env","^7.15.6"]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: '^7.15.6',
+45 verbose parsed url   path: '^7.15.6',
+45 verbose parsed url   href: '^7.15.6' }
+46 verbose addNamed [ 'babel/preset-env', '^7.15.6' ]
+47 verbose addNamed [ null, '>=7.15.6-0 <8.0.0-0' ]
+48 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+49 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+50 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+51 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+52 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+53 silly lockFile 16e74f81-babel-jest-27-2-2 babel-jest@^27.2.2
+54 verbose lock babel-jest@^27.2.2 /root/.npm/16e74f81-babel-jest-27-2-2.lock
+55 silly lockFile ae59cc63-jest-27-2-2 jest@^27.2.2
+56 verbose lock jest@^27.2.2 /root/.npm/ae59cc63-jest-27-2-2.lock
+57 silly lockFile 1a571b43-eslint-7-32-0 eslint@^7.32.0
+58 verbose lock eslint@^7.32.0 /root/.npm/1a571b43-eslint-7-32-0.lock
+59 silly lockFile 14c6d0dd-babel-core-7-15-5 babel/core@^7.15.5
+60 verbose lock babel/core@^7.15.5 /root/.npm/14c6d0dd-babel-core-7-15-5.lock
+61 silly lockFile c220995e-babel-preset-env-7-15-6 babel/preset-env@^7.15.6
+62 verbose lock babel/preset-env@^7.15.6 /root/.npm/c220995e-babel-preset-env-7-15-6.lock
+63 silly addNameRange { name: 'babel-jest',
+63 silly addNameRange   range: '>=27.2.2-0 <28.0.0-0',
+63 silly addNameRange   hasData: false }
+64 silly addNameRange { name: 'jest', range: '>=27.2.2-0 <28.0.0-0', hasData: false }
+65 silly addNameRange { name: 'eslint', range: '>=7.32.0-0 <8.0.0-0', hasData: false }
+66 silly addNameRange { name: 'babel/core',
+66 silly addNameRange   range: '>=7.15.5-0 <8.0.0-0',
+66 silly addNameRange   hasData: false }
+67 silly addNameRange { name: 'babel/preset-env',
+67 silly addNameRange   range: '>=7.15.6-0 <8.0.0-0',
+67 silly addNameRange   hasData: false }
+68 verbose url raw babel-jest
+69 verbose url resolving [ 'https://registry.npmjs.org/', './babel-jest' ]
+70 verbose url resolved https://registry.npmjs.org/babel-jest
+71 info trying registry request attempt 1 at 20:26:11
+72 http GET https://registry.npmjs.org/babel-jest
+73 verbose url raw jest
+74 verbose url resolving [ 'https://registry.npmjs.org/', './jest' ]
+75 verbose url resolved https://registry.npmjs.org/jest
+76 info trying registry request attempt 1 at 20:26:11
+77 http GET https://registry.npmjs.org/jest
+78 verbose url raw eslint
+79 verbose url resolving [ 'https://registry.npmjs.org/', './eslint' ]
+80 verbose url resolved https://registry.npmjs.org/eslint
+81 info trying registry request attempt 1 at 20:26:11
+82 http GET https://registry.npmjs.org/eslint
+83 verbose url raw babel/core
+84 verbose url resolving [ 'https://registry.npmjs.org/', './babel/core' ]
+85 verbose url resolved https://registry.npmjs.org/babel/core
+86 info trying registry request attempt 1 at 20:26:11
+87 http GET https://registry.npmjs.org/babel/core
+88 verbose url raw babel/preset-env
+89 verbose url resolving [ 'https://registry.npmjs.org/', './babel/preset-env' ]
+90 verbose url resolved https://registry.npmjs.org/babel/preset-env
+91 info trying registry request attempt 1 at 20:26:11
+92 http GET https://registry.npmjs.org/babel/preset-env
+93 http 404 https://registry.npmjs.org/babel/core
+94 silly registry.get cb [ 404,
+94 silly registry.get   { date: 'Wed, 24 Jul 2024 20:26:11 GMT',
+94 silly registry.get     'content-type': 'application/json',
+94 silly registry.get     'content-length': '25',
+94 silly registry.get     connection: 'keep-alive',
+94 silly registry.get     'cf-ray': '8a86a4cf8d891745-IAD',
+94 silly registry.get     'access-control-allow-origin': '*',
+94 silly registry.get     server: 'cloudflare' } ]
+95 http 404 https://registry.npmjs.org/babel/preset-env
+96 silly registry.get cb [ 404,
+96 silly registry.get   { date: 'Wed, 24 Jul 2024 20:26:11 GMT',
+96 silly registry.get     'content-type': 'application/json',
+96 silly registry.get     'content-length': '31',
+96 silly registry.get     connection: 'keep-alive',
+96 silly registry.get     'cf-ray': '8a86a4cf8e6205c6-IAD',
+96 silly registry.get     'access-control-allow-origin': '*',
+96 silly registry.get     server: 'cloudflare' } ]
+97 silly addNameRange number 2 { name: 'babel/preset-env',
+97 silly addNameRange   range: '>=7.15.6-0 <8.0.0-0',
+97 silly addNameRange   hasData: true }
+98 silly addNameRange versions [ undefined, [] ]
+99 error TypeError: Cannot read property 'latest' of undefined
+99 error     at next (/usr/share/npm/lib/cache.js:687:35)
+99 error     at /usr/share/npm/lib/cache.js:675:5
+99 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+99 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+99 error     at Object.oncomplete (fs.js:107:15)
+100 error If you need help, you may report this log at:
+100 error     <http://github.com/isaacs/npm/issues>
+100 error or email it to:
+100 error     <npm-@googlegroups.com>
+101 error System Linux 5.3.0-1032-aws
+102 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+103 error cwd /root/alx-frontend-javascript/0x01-ES6_promise
+104 error node -v v0.10.25
+105 error npm -v 1.3.10
+106 error type non_object_property_load
+107 verbose exit [ 1, true ]
